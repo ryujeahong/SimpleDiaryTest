@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:calendarViewShown="false"
-        android:dataPickerMode="spinner"
+        android:datePickerMode="spinner"
         />
 
     <EditText
@@ -28,6 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="right"
         android:text="버튼1"
+        android:enabled="false"
         />
 
 </LinearLayout>
